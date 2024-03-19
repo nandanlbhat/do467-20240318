@@ -1,0 +1,10 @@
+---
+- name: show value of a variable
+  hosts: all
+  gather_facts: false
+
+  tasks:
+    - name: show value of a variable
+      debug: 
+        msg: "The value of variable myvariable is {{ myvariable }}"
+...
