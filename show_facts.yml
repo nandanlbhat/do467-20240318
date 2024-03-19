@@ -1,6 +1,7 @@
 ---
 - name: show ip address from facts
   hosts: all
+  gather_facts: false
 
   tasks:
     - name: show ip address
