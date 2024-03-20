@@ -1,2 +1,5 @@
 [otherservers]
 serverc.lab.example.com
+
+[testservers]
+serverd.lab.example.com
