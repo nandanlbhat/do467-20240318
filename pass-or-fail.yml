@@ -5,6 +5,6 @@
 
   tasks:
     - name: either pass or fail based on need
-      ansible.builtin.debug:
-        msg: passing initially
+      ansible.builtin.fail:
+        msg: fail for testing
 ...
