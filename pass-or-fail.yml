@@ -1,0 +1,10 @@
+---
+- name: either pass or fail based on need
+  hosts: all
+  gather_facts: false
+
+  tasks:
+    - name: either pass or fail based on need
+      ansible.builtin.debug:
+        msg: passing initially
+...
