@@ -1,0 +1,10 @@
+---
+- name: show a message
+  hosts: all
+  gather_facts: false
+
+  tasks:  
+    - name: show a message
+      ansible.builtin.debug:
+        msg: Some message of great value
+...
